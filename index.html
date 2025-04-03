@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Analyzer (3D Card + Live Background)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="github-logo">
+    </div>
+
+    <div class="container">
+        <h2>GitHub Profile Analyzer</h2>
+        <div class="search-box">
+            <input type="text" id="username" placeholder="Enter GitHub Username">
+            <button onclick="fetchGitHubProfile()">Search</button>
+        </div>
+        <div class="profile-wrapper">
+            <div id="profile-container" class="profile-card"></div>
+        </div>
+        <div id="repo-container" class="repo-list"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
