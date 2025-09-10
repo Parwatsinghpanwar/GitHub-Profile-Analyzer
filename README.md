@@ -34,7 +34,7 @@ s://your-screenshot-link.com)
 - **HTML**  
 - **CSS** (3D Effects & Animations)  
 - **JavaScript** (Fetch API for GitHub Data)  
-- **GitHub API**  
+-  
 
 ---
 
@@ -42,3 +42,4 @@ s://your-screenshot-link.com)
 1️⃣ Clone this repository:
    ```sh
    git clone https://github.com/your-username/github-profile-analyzer.git
+  
